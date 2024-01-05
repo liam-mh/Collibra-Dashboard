@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="./script.js"></script>
+    <title>Elanco - Data Knowledge Hub</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="grid-container">
+
+            <div class="square">
+                <img src="./icons/Elanco_logo_white.svg" alt="Logo">
+                <h1>Welcome to Elanco's Data Knowledge Hub</h1>
+                <p>Collibra is Elanco's Data knowledge hub, where you can find and understand trusted data from across the organization.</p>
+                <div class="search-bar">
+                    <input type="text" id="searchBar" placeholder="Search all governed data..."/>
+                    <button class="search-button-white" onclick="searchByInput('searchBar')">&#128269;</button>
+                </div>
+                <nav>
+                    <input type="radio" id="x1" name="x" data-filter="0" checked/><label for="x1">All</label>                    
+                    <input type="radio" id="x2" name="x" data-filter="3"/><label for="x2">Business Terms</label>
+                    <input type="radio" id="x3" name="x" data-filter="1"/><label for="x3">Reports</label>
+                </nav>
+            </div>
+
+            <div class="square">
+                <img src=".\icons\Community2.png" alt="Icon">
+                <h2>Communities</h2>
+                <p>Direct access to a community</p>
+                <div class="grid-list-2">
+                    <a onclick="searchByFilter(4)"><li>Commercial</li></a>
+                    <a onclick="searchByFilter(5)"><li>G&A</li></a>
+                    <a onclick="searchByFilter(6)"><li>M&Q</li></a>
+                    <a onclick="searchByFilter(7)"><li>R&D</li></a>
+                </div>
+            </div>
+
+            <div class="square">
+                <img src=".\icons\Help.png" alt="Icon">
+                <h2>Help</h2>
+                <p>Links and contacts to assist</p>
+                <div class="grid-list">
+                    <a onclick="openLink(4)"><li>EDO Teams Channel</li></a>
+                    <a onclick="openLink(5)"><li>Collibra University</li></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p style="color: #0072CE;">&copy; 2023 Elanco's Data Knowledge Hub</p>
+    </footer>
+
+</body>
+</html>

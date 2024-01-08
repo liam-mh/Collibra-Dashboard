@@ -44,10 +44,11 @@
                 <div class="card-body">
                     <p class="card-text">Direct access to a community within Collibra.</p>
                     <div class="row mb-3">
+                        <div class="col"><a class="btn btn-outline-primary w-100" onclick="searchByFilter(8)">Enterprise</a></div>
                         <div class="col"><a class="btn btn-outline-primary w-100" onclick="searchByFilter(4)">Commercial</a></div>
-                        <div class="col"><a class="btn btn-outline-primary w-100" onclick="searchByFilter(5)">G&A</a></div>
                     </div>
                     <div class="row mb-3">
+                        <div class="col"><a class="btn btn-outline-primary w-100" onclick="searchByFilter(5)">G&A</a></div>
                         <div class="col"><a class="btn btn-outline-primary w-100" onclick="searchByFilter(6)">M&Q</a></div>
                         <div class="col"><a class="btn btn-outline-primary w-100" onclick="searchByFilter(7)">R&D</a></div>
                     </div>
@@ -61,20 +62,40 @@
                 <img src=".\icons\Help.png" alt="Icon" style="max-height: 10vh; margin: auto; padding-top: 1rem;">
                 <div class="card-body">
                     <p class="card-text">Links and contacts to assist.</p>
-                    <div class="row">
-                        <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class="row mb-3">
+                        <div class="col">
                             <div class="card">
                                 <div class="card-body">
                                     <h5 class="card-title">EDO Teams Channel</h5>
+                                    <p class="card-text">Internal Elanco support with Collibra.</p>
+                                    <a class="btn btn-secondary" onclick="openLink(4)">Open Teams</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Collibra University</h5>
+                                    <p class="card-text">Learn data governance and the data intelligence centre platform.</p>
+                                    <a class="btn btn-secondary" onclick="openLink(5)">Open University</a>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Data Knowledge Hub Capabilities</h5>
                                     <p class="card-text">Internal Elanco support with Collibra, report any issues.</p>
                                     <a class="btn btn-secondary" onclick="openLink(4)">Open Teams</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col">
                             <div class="card">
                                 <div class="card-body">
-                                    <h5 class="card-title">Collibra University</h5>
+                                    <h5 class="card-title">Technical Issues</h5>
                                     <p class="card-text">Learn data governance and the data intelligence centre platform.</p>
                                     <a class="btn btn-secondary" onclick="openLink(5)">Open University</a>
                                 </div>

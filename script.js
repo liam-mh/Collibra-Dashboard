@@ -4,7 +4,7 @@
 // Links last updated: 08//2024
 // Updated by: Liam Hammond
 
-const collibraEnvironmentURL = 'https://elanco-dev.collibra.com/'
+const collibraEnvironmentURL = 'https://elanco.collibra.com/'
 
 const links = [
     collibraEnvironmentURL,                  //  0 | Collibra environment instance
@@ -37,13 +37,14 @@ function openLink(index) {
 
 const filters = [
     '',                                         //  0 | No filter
-    'id=9c49606b-6ffc-4d08-b0ed-c84fe326d604&', //  1 | Candidate status PowerBI Reports and Tables
-    'id=9c2f34a9-10c2-478b-bd3a-e5f42ddf5ad2&', //  2 | Domain type = Glossaries
-    'id=2676b64d-5671-4544-be41-e1a047a20ae4&', //  3 | Asset type  = Business Term
-    'd3e323b2-c34c-4743-aafb-4f8e4d56848b',     //  4 | Community   = Commercial
-    'd6df5f25-e80b-4690-bcec-6a30fde189fe',     //  5 | Community   = G&A
-    'b769889b-0158-4fc0-90af-c6d24d185070',     //  6 | Community   = M&Q
-    '7f2adaa3-7718-4fdd-ba93-4f53dc1bd339',     //  7 | Community   = R&D
+    'id=c205a7f8-4941-43c8-8c16-7493c622cf25&', //  1 | Asset type  = Tableau Dashboards, Power BI Reports
+    '',                                         //  2 | 
+    'id=4310ec66-c4d8-4c1c-b943-6677f478b32b&', //  3 | Asset type  = Business Term
+    '18b08c14-b591-4db1-906c-d14e8b526590',     //  4 | Community   = Commercial
+    '66e55e81-509e-4dca-9336-66e62256ba3f',     //  5 | Community   = G&A
+    'daa7f8d4-97de-4b66-acd4-d3d1aa97bfa3',     //  6 | Community   = M&Q
+    '0dd15a33-66db-43fc-a249-387e90738c93',     //  7 | Community   = R&D
+    'e54b66a3-c10a-4e80-a434-0be28655a7ee',     //  8 | Community   = Enterprise
 ]
 
 function search(input = '', filter = 0) {

@@ -1,7 +1,7 @@
 // =============================================================================
 // CONTACTS AND LINKS
 //
-// Links last updated: 08//2024
+// Links last updated: 09/01/2024
 // Updated by: Liam Hammond
 
 const collibraEnvironmentURL = 'https://elanco.collibra.com/'
@@ -21,12 +21,7 @@ const links = [
 ]
 
 function openLink(index) {
-    var link = links[index]
-    if (link.startsWith('mailto:')) {
-        window.location.href = link
-    } else {
-        window.open(link, '_blank')
-    }
+    window.location.href = links[index]
 }
 
 // =============================================================================
